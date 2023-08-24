@@ -5,7 +5,7 @@ int sum(vector<int> v,int i,int k)
     int ans=0;
     for(int a=i;a<i+k;a++)
     {
-        ans=ans+v[i];
+        ans=ans+v[a];
     }
     return ans;
 }
