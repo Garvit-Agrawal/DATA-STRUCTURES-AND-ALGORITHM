@@ -24,13 +24,13 @@ bool issafe(int **arr,int x,int y,int n)
 
     row=x;
     col=y;
-    while(row<n && col<n)
+    while(row>=0 && col<n)
     {
         if(arr[row][col]==1)
         {
             return false;
         }
-        row++;
+        row--;
         col++;
     }
     
